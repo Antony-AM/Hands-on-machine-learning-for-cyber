@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 20 17:06:42 2025
-
-@author: quentin
-"""
-
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, precision_recall_curve, auc
 import matplotlib.pyplot as plt

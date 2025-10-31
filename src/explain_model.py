@@ -1,4 +1,3 @@
-# src/explain_model.py
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -18,20 +17,6 @@ def plot_feature_importance(model, X_train, top_n=10, title="Feature Importance"
     plt.ylabel("Feature")
     plt.show()
 
-
-
-# def explain_with_shap(model, X_sample):
-#     """
-#     Génère les explications SHAP sur un échantillon du jeu de données.
-#     """
-#     explainer = shap.Explainer(model, X_sample)
-#     shap_values = explainer(X_sample)
-#
-#     # Résumé global
-#     shap.summary_plot(shap_values, X_sample, plot_type="bar")
-#     shap.summary_plot(shap_values, X_sample)
-#
-#     return shap_values
 
 
 def explain_with_shap(model, X_sample):

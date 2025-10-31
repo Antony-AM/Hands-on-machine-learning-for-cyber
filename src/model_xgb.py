@@ -1,4 +1,3 @@
-# src/model_xgb.py
 from xgboost import XGBClassifier
 from sklearn.metrics import classification_report, roc_auc_score, precision_recall_curve, auc
 import matplotlib.pyplot as plt

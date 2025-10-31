@@ -1,4 +1,3 @@
-# src/model_rf.py
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, roc_auc_score, precision_recall_curve, auc
 import matplotlib.pyplot as plt
